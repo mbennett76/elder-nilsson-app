@@ -264,42 +264,296 @@ const READER_TEXTS = [
 const SCRIPTURE_BOOKS = [
   { id:'bom', label:'El Libro de Mormon', sublabel:'Otro Testamento de Jesucristo', icon:'📗', color:C.blue,
     chapters:[
-      { id:'1ne1', label:'1 Nefi 1', sublabel:'El principio del registro', verses:[
+      { id:'1ne1', label:'1 Nefi 1:1-3', sublabel:'El principio del registro', verses:[
         { num:1, es:'Yo, Nefi, habiendo nacido de padres buenos, y habiendo recibido mucha instruccion de mi padre; y habiendo visto muchas aflicciones en el transcurso de mis dias; sin embargo habiendo sido muy favorecido del Senor en todos mis dias...', en:'I, Nephi, having been born of goodly parents, therefore I was taught somewhat in all the learning of my father; and having seen many afflictions in the course of my days, nevertheless, having been highly favored of the Lord in all my days...' },
         { num:2, es:'...si, teniendo un gran conocimiento de la bondad y los misterios de Dios, por tanto, quiero hacer un registro de mis procederes en mis dias.', en:'...yea, having had a great knowledge of the goodness and the mysteries of God, therefore I make a record of my proceedings in my days.' },
       ]},
-      { id:'alma32', label:'Alma 32', sublabel:'La fe como semilla', verses:[
+      { id:'1ne3v7', label:'1 Nefi 3:7', sublabel:'Ire y hare', verses:[
+        { num:7, es:'Y acontecio que yo, Nefi, le dije a mi padre: Ire y hare las cosas que el Senor ha mandado, pues se que el Senor no da mandamientos a los hijos de los hombres sino que preparara el camino para que puedan cumplir lo que les ha mandado.', en:'And it came to pass that I, Nephi, said unto my father: I will go and do the things which the Lord hath commanded, for I know that the Lord giveth no commandments unto the children of men, save he shall prepare a way for them that they may accomplish the thing which he commandeth them.' },
+      ]},
+      { id:'2ne225', label:'2 Nefi 2:25', sublabel:'Los hombres existen para tener gozo', verses:[
+        { num:25, es:'Adan cayo para que los hombres existieran; y existen los hombres para que tengan gozo.', en:'Adam fell that men might be; and men are, that they might have joy.' },
+      ]},
+      { id:'2ne925', label:'2 Nefi 9:6-7', sublabel:'La Expiacion y la Resurreccion', verses:[
+        { num:6, es:'Porque como la muerte vino sobre todos los hombres para cumplir el proposito misericordioso del Grande Creador, debe haber un poder de resurreccion, y la resurreccion debe venir para todos los hombres por la fuerza y el poder, y la misericordia y la justicia del Santo Mesias.', en:'For as death hath passed upon all men, to fulfil the merciful plan of the great Creator, there must needs be a power of resurrection, and the resurrection must needs come unto man by reason of the fall; and the fall came by reason of transgression.' },
+        { num:7, es:'Porque he aqui, si la carne no se levantara, vuestros espiritus debian quedar sujetos a ese angel que cayo del cielo delante del Dios Eterno, y se convirio en el diablo, para que reinara sobre vosotros.', en:'Wherefore, it must needs be an infinite atonement — save it should be an infinite atonement this corruption could not put on incorruption. Wherefore, the first judgment which came upon man must needs have remained to an endless duration.' },
+      ]},
+      { id:'2ne2523', label:'2 Nefi 25:23', sublabel:'La gracia despues de todo lo que podemos hacer', verses:[
+        { num:23, es:'Porque trabajamos diligentemente para escribir, a fin de persuadir a nuestros hijos y tambien a nuestros hermanos que crean en Cristo y se reconcilien con Dios; porque sabemos que es por la gracia que nos salvamos, despues de hacer cuanto podamos.', en:'For we labor diligently to write, to persuade our children, and also our brethren, to believe in Christ, and to be reconciled to God; for we know that it is by grace that we are saved, after all we can do.' },
+      ]},
+      { id:'2ne31', label:'2 Nefi 31:17-20', sublabel:'La puerta del bautismo y el camino', verses:[
+        { num:17, es:'Por lo tanto, haced las cosas que os he dicho, las que he visto que vuestro Senor y Redentor haria; porque por eso el Padre os muestra estas cosas, para que cuando llegue el tiempo de el sepais la puerta por la cual debeis entrar. Pues la puerta por la cual debeis entrar es el arrepentimiento y el bautismo por agua; y entonces viene la remision de vuestros pecados por fuego y por el Espiritu Santo.', en:'Wherefore, do the things which I have told you I have seen that your Lord and your Redeemer should do; for, for this cause have they been shown unto me, that ye might know the gate by which ye should enter. For the gate by which ye should enter is repentance and baptism by water; and then cometh a remission of your sins by fire and by the Holy Ghost.' },
+        { num:20, es:'Por lo tanto, os digo que debeis seguir adelante con firmeza en Cristo, teniendo un brillo perfecto de esperanza y amor a Dios y a todos los hombres. Por lo cual, si seguís adelante, festejando en la palabra de Cristo, y aguantais hasta el fin, he aqui, asi dice el Padre: Tendreis vida eterna.', en:'Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men. Wherefore, if ye shall press forward, feasting upon the word of Christ, and endure to the end, behold, thus saith the Father: Ye shall have eternal life.' },
+      ]},
+      { id:'enos1', label:'Enos 1:3-8', sublabel:'La oracion que cambio su alma', verses:[
+        { num:3, es:'He aqui, fui al bosque para cazar bestias; y las palabras que a menudo habia oido a mi padre hablar con respecto a la vida eterna y al gozo de los santos, se me penetraron profundamente en el corazon.', en:'Behold, I went to hunt beasts in the forests; and the words which I had often heard my father speak concerning eternal life, and the joy of the saints, sunk deep into my heart.' },
+        { num:4, es:'Y mi alma tuvo hambre; y arrodille mis rodillas ante mi Hacedor, y clame a el en oracion poderosa y suplica por mi propia alma; y todo el dia clame a el, si, y cuando llego la noche todavia elevaba mi voz en alto para que llegara a los cielos.', en:'And my soul hungered; and I kneeled down before my Maker, and I cried unto him in mighty prayer and supplication for mine own soul; and all the day long did I cry unto him; yea, and when the night came I did still raise my voice high that it reached the heavens.' },
+        { num:8, es:'Y me respondio, diciendo: Enos, tus pecados te son perdonados, y seras bendito.', en:'And he said unto me: Enos, thy sins are forgiven thee, and thou shalt be blessed.' },
+      ]},
+      { id:'mos217', label:'Mosiah 2:17', sublabel:'Al servicio de vuestros semejantes', verses:[
+        { num:17, es:'Y he aqui, os digo estas cosas para que aprendais sabiduria; para que aprendais que cuando estais al servicio de vuestros semejantes, estais solamente al servicio de vuestro Dios.', en:'And behold, I tell you these things that ye may learn wisdom; that ye may learn that when ye are in the service of your fellow beings ye are only in the service of your God.' },
+      ]},
+      { id:'mos317', label:'Mosiah 3:17', sublabel:'La salvacion solo viene por Cristo', verses:[
+        { num:17, es:'Y ademas, la salvacion no viene sino por el arrepentimiento y la fe en el Senor Jesucristo.', en:'And moreover, I say unto you, that there shall be no other name given nor any other way nor means whereby salvation can come unto the children of men, only in and through the name of Christ, the Lord Omnipotent.' },
+      ]},
+      { id:'alma514', label:'Alma 5:14', sublabel:'El poderoso cambio', verses:[
+        { num:14, es:'Y ahora bien, habeis experimentado este poderoso cambio en vuestros corazones? Podeis sentir de este modo ahora? Habeis nacido de Dios?', en:'And now behold, I ask of you, my brethren of the church, have ye spiritually been born of God? Have ye received his image in your countenances? Have ye experienced this mighty change in your hearts?' },
+      ]},
+      { id:'alma711', label:'Alma 7:11-12', sublabel:'El sufrimiento de Cristo', verses:[
+        { num:11, es:'Y el saldra, sufriendo dolores y aflicciones y tentaciones de todo genero; y esto para que se cumpla la palabra que dice: El tomara sobre si los dolores y las enfermedades de su pueblo.', en:'And he shall go forth, suffering pains and afflictions and temptations of every kind; and this that the word might be fulfilled which saith he will take upon him the pains and the sicknesses of his people.' },
+        { num:12, es:'Y tomara sobre si la muerte, a fin de aflojar los lazos de la muerte que ligan a su pueblo; y tomara sobre si sus enfermedades, para que su carne pueda llenarse de misericordia segun la carne, a fin de que sepa como socorrer a su pueblo en sus enfermedades.', en:'And he will take upon him death, that he may loose the bands of death which bind his people; and he will take upon him their infirmities, that his bowels may be filled with mercy, according to the flesh, that he may know according to the flesh how to succor his people according to their infirmities.' },
+      ]},
+      { id:'alma1143', label:'Alma 11:43-44', sublabel:'La Resurreccion', verses:[
+        { num:43, es:'El espiritu y el cuerpo seran reunidos otra vez en su forma perfecta; tanto los miembros como las coyunturas quedaran restauradas a su propia y perfecta forma, tal como lo son ahora, o en el cuerpo, y seran traidos a comparecer ante el tribunal de Cristo.', en:'The spirit and the body shall be reunited again in its perfect form; both limb and joint shall be restored to its proper frame, even as we now are at this time; and we shall be brought to stand before God, knowing even as we know now, and have a bright recollection of all our guilt.' },
+        { num:44, es:'Ahora bien, este restablecimiento debera venirles a todos, tanto al joven como al viejo, tanto al esclavo como al libre, tanto al hombre como a la mujer, tanto al impio como al justo; y ni siquiera se perdera un cabello de la cabeza; sino que todo sera restaurado a su perfecta forma.', en:'Now, this restoration shall come to all, both old and young, both bond and free, both male and female, both the wicked and the righteous; and even there shall not so much as a hair of their heads be lost; but every thing shall be restored to its perfect frame.' },
+      ]},
+      { id:'alma3221', label:'Alma 32:21,27', sublabel:'La fe y la semilla', verses:[
         { num:21, es:'Y ahora bien, como dije acerca de la fe, la fe no es tener un conocimiento perfecto de las cosas; por lo tanto, si teneis fe, esperais en cosas que no se ven, las cuales son verdaderas.', en:'And now as I said concerning faith — faith is not to have a perfect knowledge of things; therefore if ye have faith ye hope for things which are not seen, which are true.' },
+        { num:27, es:'Mas he aqui, si despertais y despertais vuestras facultades, aunque sea hasta un experimento y ejerceis un poco de fe, si, aunque no sea mas que deseo de creer, dejese que este deseo obre en vosotros, si, hasta que creais en manera que podais dar lugar a una porcion de mis palabras.', en:'But behold, if ye will awake and arouse your faculties, even to an experiment upon my words, and exercise a particle of faith, yea, even if ye can no more than desire to believe, let this desire work in you, even until ye believe in a manner that ye can give place for a portion of my words.' },
         { num:28, es:'Ahora bien, compararemos la palabra con una semilla. Si dais lugar a que se siembre una semilla en vuestro corazon, si es una semilla verdadera, comenzara a hinchar vuestro pecho; y si no la expulsais, empezara a brotar.', en:'Now, we will compare the word unto a seed. Now, if ye give place, that a seed may be planted in your heart, behold, if it be a true seed, if ye do not cast it out by your unbelief, it will begin to swell within your breasts.' },
+      ]},
+      { id:'alma3432', label:'Alma 34:32-33', sublabel:'Esta vida es el tiempo de prepararse', verses:[
+        { num:32, es:'Porque he aqui, esta vida es el tiempo para los hombres de prepararse para encontrar a Dios; si, he aqui que el dia de esta vida es el dia en que los hombres deben realizar sus obras.', en:'For behold, this life is the time for men to prepare to meet God; yea, behold the day of this life is the day for men to perform their labors.' },
+        { num:33, es:'Y ahora bien, como os he dicho antes, como habeis tenido muchas oportunidades y testimonio acerca de estas cosas, entonces he aqui, que queda sino que os arrepintais de vuestros pecados y no procrastieis el dia de vuestro arrepentimiento?', en:'And now, as I said unto you before, as ye have had so many witnesses, therefore, I beseech of you that ye do not procrastinate the day of your repentance until the end; for after this day of life, which is given us to prepare for eternity, behold, if we do not improve our time while in this life, then cometh the night of darkness wherein there can be no labor performed.' },
+      ]},
+      { id:'alma363', label:'Alma 36:3', sublabel:'Confianza en Dios en las pruebas', verses:[
+        { num:3, es:'Y ahora bien, oh mi hijo Helaman, te mando que pongas oido a mis palabras, pues te juro que cuanto pondreis vuestra confianza en Dios, sereis sostenidos en vuestras pruebas, tribulaciones y aflicciones, y sereis levantados en el ultimo dia.', en:'And now, O my son Helaman, behold, thou art in thy youth, and therefore, I beseech of thee that thou wilt hear my words and learn of me; for I do know that whosoever shall put their trust in God shall be supported in their trials, and their troubles, and their afflictions, and shall be lifted up at the last day.' },
+      ]},
+      { id:'alma3767', label:'Alma 37:6-7', sublabel:'Cosas pequenas y simples', verses:[
+        { num:6, es:'Ahora bien, quizas pensais que esto es insensatez en mi; mas te digo que mediante las cosas pequenas y simples se llevan a cabo las grandes cosas; y mediante los pequenos medios el Senor confunde a los sabios y lleva a cabo la salvacion de muchas almas.', en:'Now ye may suppose that this is foolishness in me; but behold I say unto you, that by small and simple things are great things brought to pass; and small means in many instances doth confound the wise.' },
+        { num:7, es:'Y el Senor Dios obra con medios para llevar a cabo sus grandes y eternas finalidades; y por medios muy pequenos el Senor confunde a los sabios y lleva a cabo la salvacion de muchas almas.', en:'And the Lord God doth work by means to bring about his great and eternal purposes; and by very small means the Lord doth confound the wise and bringeth about the salvation of many souls.' },
+      ]},
+      { id:'3ne11', label:'3 Nefi 11:10-11', sublabel:'La aparicion de Cristo', verses:[
+        { num:10, es:'He aqui, soy Jesucristo, de quien los profetas dieron testimonio de que habia de venir al mundo.', en:'Behold, I am Jesus Christ, whom the prophets testified shall come into the world.' },
+        { num:11, es:'Y he aqui que soy la luz y la vida del mundo; y he bebido de esa copa amarga que el Padre me dio, y he glorificado al Padre al tomar sobre mi los pecados del mundo, en lo cual he sufrido la voluntad del Padre en todas las cosas desde el principio.', en:'And behold, I am the light and the life of the world; and I have drunk out of that bitter cup which the Father hath given me, and have glorified the Father in taking upon me the sins of the world, in the which I have suffered the will of the Father in all things from the beginning.' },
+      ]},
+      { id:'3ne27', label:'3 Nefi 27:13-14', sublabel:'El nombre de la Iglesia', verses:[
+        { num:13, es:'He aqui, estoy en el Padre, y el Padre en mi, y el Padre y yo somos uno.', en:'Behold I am in the Father, and the Father in me, and the Father and I are one.' },
+        { num:14, es:'Y como he sido levantado por los hombres, asi tambien los hombres seran levantados por el Padre para comparecer ante mi, para ser juzgados de sus obras, sean buenas o sean malas.', en:'And as I have been lifted up by men even so should men be lifted up by the Father, to stand before me, to be judged of their works, whether they be good or whether they be evil.' },
+      ]},
+      { id:'moro733', label:'Moroni 7:33', sublabel:'Fe para hacer milagros', verses:[
+        { num:33, es:'Y Cristo dijo claramente: Si teneis fe, podreis hacer todas las cosas que a mi me son convenientes.', en:'And Christ hath said: If ye will have faith in me ye shall have power to do whatsoever thing is expedient in me.' },
+      ]},
+      { id:'moro747', label:'Moroni 7:47-48', sublabel:'La caridad, el amor puro de Cristo', verses:[
+        { num:47, es:'Mas la caridad es el amor puro de Cristo, y permanece para siempre; y el que se halle que la posee en el ultimo dia, le ira bien.', en:'But charity is the pure love of Christ, and it endureth forever; and whoso is found possessed of it at the last day, it shall be well with him.' },
+        { num:48, es:'Por lo tanto, amados mios, orad al Padre con toda la energia de vuestro corazon para que seais llenos de este amor, que el ha otorgado a todos los que son verdaderos seguidores de su Hijo Jesucristo; a fin de que llegueis a ser hijos de Dios; para que cuando el aparezca seamos semejantes a el, pues le veremos tal como es.', en:'Wherefore, my beloved brethren, pray unto the Father with all the energy of heart, that ye may be filled with this love, which he hath bestowed upon all who are true followers of his Son, Jesus Christ; that ye may become the sons of God; that when he shall appear we shall be like him, for we shall see him as he is.' },
+      ]},
+      { id:'moro10', label:'Moroni 10:3-5', sublabel:'La promesa de Moroni', verses:[
+        { num:3, es:'He aqui, quisiera exhortaros a que, cuando leyereis estas cosas, recordeis cuan misericordioso ha sido el Senor con los hijos de los hombres desde la creacion de Adan hasta el tiempo en que recibireis estas cosas, y mediteis sobre ello en vuestros corazones.', en:'Behold, I would exhort you that when ye shall read these things, if it be wisdom in God that ye should read them, that ye would remember how merciful the Lord hath been unto the children of men, from the creation of Adam even down until the time that ye shall receive these things, and ponder it in your hearts.' },
+        { num:4, es:'Y cuando recibiereis estas cosas, yo os exhortaria a que preguntaseis a Dios el Padre Eterno, en el nombre de Cristo, si no son verdaderas estas cosas; y si preguntareis con un corazon sincero, con verdadera intencion, teniendo fe en Cristo, el os manifestara la verdad de ellas por el poder del Espiritu Santo.', en:'And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost.' },
+        { num:5, es:'Y por el poder del Espiritu Santo podeis saber la verdad de todas las cosas.', en:'And by the power of the Holy Ghost ye may know the truth of all things.' },
+      ]},
+    ]},
+  { id:'at', label:'Antiguo Testamento', sublabel:'El Registro de Israel', icon:'📜', color:C.gold,
+    chapters:[
+      { id:'gen126', label:'Genesis 1:26-27', sublabel:'El hombre a imagen de Dios', verses:[
+        { num:26, es:'Entonces dijo Dios: Hagamos al hombre a nuestra imagen, conforme a nuestra semejanza; y senoreeen los peces del mar, en las aves de los cielos, en las bestias, en toda la tierra, y en todo animal que se arrastra sobre la tierra.', en:'And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth.' },
+        { num:27, es:'Y creo Dios al hombre a su imagen, a imagen de Dios lo creo; varon y hembra los creo.', en:'So God created man in his own image, in the image of God created he him; male and female created he them.' },
+      ]},
+      { id:'jos2415', label:'Josue 24:15', sublabel:'Escoged a quien sirveis', verses:[
+        { num:15, es:'Y si mal os parece servir a Jehova, escoged hoy a quien sirvais; si a los dioses a quienes sirvieron vuestros padres, cuando estuvieron al otro lado del rio, o a los dioses de los amorreos en cuya tierra habitais; pero yo y mi casa serviremos a Jehova.', en:'And if it seem evil unto you to serve the Lord, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my house, we will serve the Lord.' },
+      ]},
+      { id:'rei191112', label:'1 Reyes 19:11-12', sublabel:'La voz apacible y delicada', verses:[
+        { num:11, es:'El le dijo: Sal fuera, y ponte en el monte delante de Jehova. Y he aqui Jehova que pasaba, y un grande y poderoso viento que rompia los montes y quebraba las penas delante de Jehova; pero Jehova no estaba en el viento. Y tras el viento un terremoto; pero Jehova no estaba en el terremoto.', en:'And he said, Go forth, and stand upon the mount before the Lord. And, behold, the Lord passed by, and a great and strong wind rent the mountains, and brake in pieces the rocks before the Lord; but the Lord was not in the wind: and after the wind an earthquake; but the Lord was not in the earthquake.' },
+        { num:12, es:'Y tras el terremoto un fuego; pero Jehova no estaba en el fuego. Y tras el fuego una voz apacible y delicada.', en:'And after the earthquake a fire; but the Lord was not in the fire: and after the fire a still small voice.' },
+      ]},
+      { id:'sal4610', label:'Salmo 46:10', sublabel:'Estad quietos y conoced a Dios', verses:[
+        { num:10, es:'Estad quietos, y conoced que yo soy Dios; sere exaltado entre las naciones; enaltecido sere en la tierra.', en:'Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth.' },
+      ]},
+      { id:'isa118', label:'Isaias 1:18', sublabel:'Aunque vuestros pecados sean como la grana', verses:[
+        { num:18, es:'Venid luego, dice Jehova, y estemos a cuenta: si vuestros pecados fueren como la grana, como la nieve seran emblanquecidos; si fueren rojos como el carmesi, vendran a ser como blanca lana.', en:'Come now, and let us reason together, saith the Lord: though your sins be as scarlet, they shall be as white as snow; though they be red like crimson, they shall be as wool.' },
+      ]},
+      { id:'isa5589', label:'Isaias 55:8-9', sublabel:'Mis pensamientos no son vuestros pensamientos', verses:[
+        { num:8, es:'Porque mis pensamientos no son vuestros pensamientos, ni vuestros caminos mis caminos, dijo Jehova.', en:'For my thoughts are not your thoughts, neither are your ways my ways, saith the Lord.' },
+        { num:9, es:'Como son mas altos los cielos que la tierra, asi son mis caminos mas altos que vuestros caminos, y mis pensamientos mas que vuestros pensamientos.', en:'For as the heavens are higher than the earth, so are my ways higher than your ways, and my thoughts than your thoughts.' },
+      ]},
+      { id:'jer15', label:'Jeremias 1:5', sublabel:'Antes que te formase te conocí', verses:[
+        { num:5, es:'Antes que te formase en el vientre te conoci, y antes que nacieras te santifique, te di por profeta a las naciones.', en:'Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations.' },
+      ]},
+      { id:'amos37', label:'Amos 3:7', sublabel:'Dios revela sus secretos a sus profetas', verses:[
+        { num:7, es:'Porque no hara nada Jehova el Senor, sin que revele su secreto a sus siervos los profetas.', en:'Surely the Lord God will do nothing, but he revealeth his secret unto his servants the prophets.' },
+      ]},
+      { id:'mal456', label:'Malaquias 4:5-6', sublabel:'Elias, sellador de familias', verses:[
+        { num:5, es:'He aqui, yo os envio el profeta Elias, antes que venga el dia de Jehova, grande y terrible.', en:'Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the Lord.' },
+        { num:6, es:'El hara volver el corazon de los padres hacia los hijos, y el corazon de los hijos hacia los padres, no sea que yo venga y hiera la tierra con maldicion.', en:'And he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.' },
       ]},
     ]},
   { id:'nt', label:'Nuevo Testamento', sublabel:'El Evangelio de Jesucristo', icon:'✝️', color:C.red,
     chapters:[
-      { id:'jn3', label:'Juan 3', sublabel:'El amor de Dios', verses:[
+      { id:'mat3b', label:'Mateo 3:16-17', sublabel:'El bautismo de Cristo', verses:[
+        { num:16, es:'Y Jesus, despues que fue bautizado, subio luego del agua; y he aqui los cielos le fueron abiertos, y vio al Espiritu de Dios que descendia como paloma, y venia sobre el.', en:'And Jesus, when he was baptized, went up straightway out of the water: and, lo, the heavens were opened unto him, and he saw the Spirit of God descending like a dove, and lighting upon him.' },
+        { num:17, es:'Y hubo una voz de los cielos, que decia: Este es mi Hijo amado, en quien tengo complacencia.', en:'And lo a voice from heaven, saying, This is my beloved Son, in whom I am well pleased.' },
+      ]},
+      { id:'mat548', label:'Mateo 5:48', sublabel:'Sed perfectos como vuestro Padre', verses:[
+        { num:48, es:'Sed, pues, vosotros perfectos, como vuestro Padre que esta en los cielos es perfecto.', en:'Be ye therefore perfect, even as your Father which is in heaven is perfect.' },
+      ]},
+      { id:'mat778', label:'Mateo 7:7-8', sublabel:'Pedid, buscad, llamad', verses:[
+        { num:7, es:'Pedid, y se os dara; buscad, y hallareis; llamad, y se os abrira.', en:'Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you.' },
+        { num:8, es:'Porque todo aquel que pide, recibe; y el que busca, halla; y al que llama, se le abrira.', en:'For every one that asketh receiveth; and he that seeketh findeth; and to him that knocketh it shall be opened.' },
+      ]},
+      { id:'mat2236', label:'Mateo 22:36-40', sublabel:'Los dos grandes mandamientos', verses:[
+        { num:37, es:'Jesus le dijo: Amaras al Senor tu Dios con todo tu corazon, y con toda tu alma, y con toda tu mente.', en:'Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind.' },
+        { num:38, es:'Este es el primero y grande mandamiento.', en:'This is the first and great commandment.' },
+        { num:39, es:'Y el segundo es semejante: Amaras a tu projimo como a ti mismo.', en:'And the second is like unto it, Thou shalt love thy neighbour as thyself.' },
+        { num:40, es:'De estos dos mandamientos depende toda la ley y los profetas.', en:'On these two commandments hang all the law and the prophets.' },
+      ]},
+      { id:'jn35', label:'Juan 3:5', sublabel:'Nacer de agua y del Espiritu', verses:[
+        { num:5, es:'Respondio Jesus: De cierto, de cierto te digo, que el que no naciere de agua y del Espiritu, no puede entrar en el reino de Dios.', en:'Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.' },
+      ]},
+      { id:'jn316', label:'Juan 3:16-17', sublabel:'El amor de Dios', verses:[
         { num:16, es:'Porque de tal manera amo Dios al mundo, que ha dado a su Hijo unigenito, para que todo aquel que en el cree, no se pierda, mas tenga vida eterna.', en:'For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.' },
         { num:17, es:'Porque no envio Dios a su Hijo al mundo para condenar al mundo, sino para que el mundo sea salvo por el.', en:'For God sent not his Son into the world to condemn the world; but that the world through him might be saved.' },
       ]},
-      { id:'mat28', label:'Mateo 28', sublabel:'La Gran Comision', verses:[
-        { num:19, es:'Por tanto, id, y haced discipulos a todas las naciones, bautizandolos en el nombre del Padre, y del Hijo, y del Espiritu Santo;', en:'Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost:' },
+      { id:'jn717', label:'Juan 7:17', sublabel:'Conocer si la doctrina es de Dios', verses:[
+        { num:17, es:'El que quiera hacer la voluntad de Dios, conocera si la doctrina es de Dios, o si yo hablo por mi propia cuenta.', en:'If any man will do his will, he shall know of the doctrine, whether it be of God, or whether I speak of myself.' },
+      ]},
+      { id:'jn146', label:'Juan 14:6', sublabel:'Yo soy el camino, la verdad y la vida', verses:[
+        { num:6, es:'Jesus le dijo: Yo soy el camino, y la verdad, y la vida; nadie viene al Padre, sino por mi.', en:'Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.' },
+      ]},
+      { id:'jn1426', label:'Juan 14:26-27', sublabel:'El Consolador — el Espiritu Santo', verses:[
+        { num:26, es:'Mas el Consolador, el Espiritu Santo, a quien el Padre enviara en mi nombre, el os ensenara todas las cosas, y os recordara todo lo que yo os he dicho.', en:'But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you.' },
+        { num:27, es:'La paz os dejo, mi paz os doy; yo no os la doy como el mundo la da. No se turbe vuestro corazon, ni tenga miedo.', en:'Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.' },
+      ]},
+      { id:'hec319', label:'Hechos 3:19-21', sublabel:'La Restauracion de todas las cosas', verses:[
+        { num:19, es:'Asi que, arrepentios y convertios, para que sean borrados vuestros pecados; para que vengan de la presencia del Senor tiempos de refrigerio.', en:'Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord.' },
+        { num:20, es:'Y el envie a Jesucristo, que os fue antes anunciado.', en:'And he shall send Jesus Christ, which before was preached unto you.' },
+        { num:21, es:'A quien de cierto es necesario que el cielo reciba hasta los tiempos de la restauracion de todas las cosas, de que hablo Dios por boca de sus santos profetas que han sido desde tiempo antiguo.', en:'Whom the heaven must receive until the times of restitution of all things, which God hath spoken by the mouth of all his holy prophets since the world began.' },
+      ]},
+      { id:'hec814', label:'Hechos 8:14-17', sublabel:'Imposicion de manos para el Espiritu Santo', verses:[
+        { num:14, es:'Cuando los apostoles que estaban en Jerusalem oyeron que Samaria habia recibido la palabra de Dios, enviaron alla a Pedro y a Juan.', en:'Now when the apostles which were at Jerusalem heard that Samaria had received the word of God, they sent unto them Peter and John.' },
+        { num:15, es:'Los cuales, habiendo venido, oraron por ellos para que recibiesen el Espiritu Santo.', en:'Who, when they were come down, prayed for them, that they might receive the Holy Ghost.' },
+        { num:17, es:'Entonces les imponian las manos, y recibian el Espiritu Santo.', en:'Then laid they their hands on them, and they received the Holy Ghost.' },
+      ]},
+      { id:'rom816', label:'Romanos 8:16-17', sublabel:'Hijos y herederos de Dios', verses:[
+        { num:16, es:'El Espiritu mismo da testimonio a nuestro espiritu, de que somos hijos de Dios.', en:'The Spirit itself beareth witness with our spirit, that we are the children of God.' },
+        { num:17, es:'Y si hijos, tambien herederos; herederos de Dios y coherederos con Cristo, si es que padecemos juntamente con el, para que juntamente con el seamos glorificados.', en:'And if children, then heirs; heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together.' },
+      ]},
+      { id:'efe219', label:'Efesios 2:19-20', sublabel:'Fundados sobre apostoles y profetas', verses:[
+        { num:19, es:'Asi que ya no sois extranjeros ni advenedizos, sino conciudadanos de los santos, y miembros de la familia de Dios.', en:'Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God.' },
+        { num:20, es:'Edificados sobre el fundamento de los apostoles y profetas, siendo la principal piedra del angulo Jesucristo mismo.', en:'And are built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone.' },
+      ]},
+      { id:'efe411', label:'Efesios 4:11-14', sublabel:'Apostoles y profetas en la Iglesia', verses:[
+        { num:11, es:'Y el mismo constituyo a unos, apostoles; a otros, profetas; a otros, evangelistas; a otros, pastores y maestros.', en:'And he gave some, apostles; and some, prophets; and some, evangelists; and some, pastors and teachers.' },
+        { num:12, es:'A fin de perfeccionar a los santos para la obra del ministerio, para la edificacion del cuerpo de Cristo.', en:'For the perfecting of the saints, for the work of the ministry, for the edifying of the body of Christ.' },
+        { num:13, es:'Hasta que todos lleguemos a la unidad de la fe y del conocimiento del Hijo de Dios, a un varon perfecto, a la medida de la estatura de la plenitud de Cristo.', en:'Till we all come in the unity of the faith, and of the knowledge of the Son of God, unto a perfect man, unto the measure of the stature of the fulness of Christ.' },
+        { num:14, es:'Para que ya no seamos ninos fluctuantes, llevados por doquiera de todo viento de doctrina, por estratagema de hombres que para enganar emplean con astucia las artimanas del error.', en:'That we henceforth be no more children, tossed to and fro, and carried about with every wind of doctrine, by the sleight of men, and cunning craftiness, whereby they lie in wait to deceive.' },
+      ]},
+      { id:'heb54', label:'Hebreos 5:4', sublabel:'Llamado por Dios como Aaron', verses:[
+        { num:4, es:'Y nadie toma para si esta honra, sino el que es llamado por Dios, como lo fue Aaron.', en:'And no man taketh this honour unto himself, but he that is called of God, as was Aaron.' },
+      ]},
+      { id:'san15', label:'Santiago 1:5', sublabel:'Pedid sabiduria a Dios', verses:[
+        { num:5, es:'Y si alguno de vosotros tiene falta de sabiduria, pidala a Dios, el cual da a todos abundantemente y sin reproche, y le sera dada.', en:'If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him.' },
+      ]},
+      { id:'san217', label:'Santiago 2:17', sublabel:'La fe sin obras es muerta', verses:[
+        { num:17, es:'Asi tambien la fe, si no tiene obras, es muerta en si misma.', en:'Even so faith, if it hath not works, is dead, being alone.' },
+      ]},
+      { id:'mat28', label:'Mateo 28:19-20', sublabel:'La Gran Comision', verses:[
+        { num:19, es:'Por tanto, id, y haced discipulos a todas las naciones, bautizandolos en el nombre del Padre, y del Hijo, y del Espiritu Santo;', en:'Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost.' },
         { num:20, es:'ensenandoles que guarden todas las cosas que os he mandado; y he aqui yo estoy con vosotros todos los dias, hasta el fin del mundo.', en:'Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you always, even unto the end of the world.' },
       ]},
     ]},
   { id:'dyc', label:'Doctrina y Convenios', sublabel:'Revelacion Moderna', icon:'📘', color:C.green,
     chapters:[
-      { id:'dyc18', label:'D y C 18', sublabel:'El valor de las almas', verses:[
-        { num:10, es:'Recuerda que el valor de las almas es grande a los ojos de Dios;', en:'Remember the worth of souls is great in the sight of God;' },
+      { id:'dyc130', label:'D y C 1:30', sublabel:'La unica Iglesia verdadera', verses:[
+        { num:30, es:'Y tambien aquellos a quienes fue dada esta iglesia, la unica iglesia verdadera y viviente sobre la faz de toda la tierra, con la cual yo, el Senor, estoy bien complacido, hablando a la iglesia colectivamente y no individualmente.', en:'And also those to whom these commandments were given, might have power to lay the foundation of this church, and to bring it forth out of obscurity and out of darkness, the only true and living church upon the face of the whole earth.' },
+      ]},
+      { id:'dyc424', label:'D y C 4:2-4', sublabel:'La obra admirable de Dios', verses:[
+        { num:2, es:'Por lo tanto, oh vosotros que os embarcais en el servicio de Dios, ved que le sirveis con todo vuestro corazon, poder, mente y fuerza, para que asi podais estar sin reproche ante Dios en el ultimo dia.', en:'Therefore, O ye that embark in the service of God, see that ye serve him with all your heart, might, mind and strength, that ye may stand blameless before God at the last day.' },
+        { num:3, es:'Por tanto, si teneis deseos de servir a Dios, sois llamados a la obra.', en:'Therefore, if ye have desires to serve God ye are called to the work.' },
+        { num:4, es:'Pues he aqui, el campo ya esta blanco, listo para la siega; y he aqui que aquel que pone su hoz con su fuerza, el mismo guarda la mies para la vida eterna, y por lo tanto es bienaventurado en el reino de Dios.', en:'For behold the field is white already to harvest; and lo, he that thrusteth in his sickle with his might, the same layeth up in store that he perisheth not, but bringeth salvation to his soul.' },
+      ]},
+      { id:'dyc636', label:'D y C 6:36', sublabel:'Mirad a mi en todo pensamiento', verses:[
+        { num:36, es:'Mirad a mi en todo pensamiento; no dudeis, no temais.', en:'Look unto me in every thought; doubt not, fear not.' },
+      ]},
+      { id:'dyc823', label:'D y C 8:2-3', sublabel:'El espiritu de revelacion', verses:[
+        { num:2, es:'Si, yo os dire en vuestra mente y en vuestro corazon, mediante el Espiritu Santo, el cual vendra sobre vosotros y morara en vuestro corazon.', en:'Yea, behold, I will tell you in your mind and in your heart, by the Holy Ghost, which shall come upon you and which shall dwell in your heart.' },
+        { num:3, es:'Ahora he aqui, esto es el espiritu de revelacion; he aqui, esto es el principio de esta obra; por lo tanto, seguid hasta terminar.', en:'Now, behold, this is the spirit of revelation; behold, this is the spirit by which Moses brought the children of Israel through the Red Sea on dry ground.' },
+      ]},
+      { id:'dyc979', label:'D y C 9:7-9', sublabel:'El ardor en el seno', verses:[
+        { num:7, es:'He aqui, no te ensene con respecto a este asunto? Debes estudiar esto en tu mente; entonces deberas preguntarme si es correcto, y si es correcto te causare que tu seno arda dentro de ti; por tanto, sentiras que es correcto.', en:'Behold, you have not understood; you have supposed that I would give it unto you, when you took no thought save it was to ask me. But, behold, I say unto you, that you must study it out in your mind; then you must ask me if it be right, and if it is right I will cause that your bosom shall burn within you.' },
+        { num:8, es:'Pero si no es correcto, no tendras tales sentimientos, sino que tendras una insensatez de pensamiento que te causara olvidar que es correcto.', en:'But if it be not right you shall have no such feelings, but you shall have a stupor of thought that shall cause you to forget the thing which is wrong.' },
+        { num:9, es:'Ahora bien, si no lo hubieras pedido, no habrias recibido.', en:'Now, if you had known this you could have translated; nevertheless, it is not expedient that you should translate now.' },
+      ]},
+      { id:'dyc1121', label:'D y C 11:21', sublabel:'Obtened la palabra primero', verses:[
+        { num:21, es:'No procures declarar mi palabra, mas primeramente procura obtenerla, y entonces sera soltada tu lengua; entonces, si lo deseas, tendras mi Espiritu y mi palabra, si, el poder de Dios para convencer a los hombres.', en:'Seek not to declare my word, but first seek to obtain my word, and then shall your tongue be loosed; then, if you desire, you shall have my Spirit and my word, yea, the power of God unto the convincing of men.' },
+      ]},
+      { id:'dyc147', label:'D y C 14:7', sublabel:'El mayor don de Dios', verses:[
+        { num:7, es:'Y si guardas mis mandamientos y perseveras hasta el fin, tendras vida eterna, lo cual es el mayor de todos los dones de Dios.', en:'And, if you keep my commandments and endure to the end you shall have eternal life, which gift is the greatest of all the gifts of God.' },
+      ]},
+      { id:'dyc1810', label:'D y C 18:10-11,15', sublabel:'El valor de las almas', verses:[
+        { num:10, es:'Recuerda que el valor de las almas es grande a los ojos de Dios;', en:'Remember the worth of souls is great in the sight of God.' },
         { num:11, es:'porque he aqui, el Senor tu Redentor sufrio la muerte en la carne; por lo tanto sufrio el dolor de todos los hombres para que todos los hombres pudieran arrepentirse y acudir a el.', en:'For, behold, the Lord your Redeemer suffered death in the flesh; wherefore he suffered the pain of all men, that all men might repent and come unto him.' },
         { num:15, es:'Y si sucede que te esfuerzas con todos los dias de tu vida en proclamar este arrepentimiento a esta gente, y traes aunque sea un alma a mi, cuan grande sera tu gozo con el en el reino de mi Padre!', en:'And if it so be that you should labor all your days in crying repentance unto this people, and bring, save it be one soul unto me, how great shall be your joy with him in the kingdom of my Father!' },
+      ]},
+      { id:'dyc2037', label:'D y C 20:37', sublabel:'Requisitos para el bautismo', verses:[
+        { num:37, es:'Y nuevamente, por cuestion de bautismo: todos los que se humillen ante Dios y deseen ser bautizados, y vengan con corazones quebrantados y espiritus contritos, y sean testigos ante la iglesia de que en verdad se han arrepentido de todos sus pecados y estan dispuestos a tomar sobre si el nombre de Jesucristo, habiendo determinado servirle hasta el fin, y en verdad muestren por sus obras que han recibido el Espiritu de Cristo para la remision de sus pecados, seran recibidos por el bautismo en su iglesia.', en:'All those who humble themselves before God, and desire to be baptized, and come forth with broken hearts and contrite spirits, and witness before the church that they have truly repented of all their sins, and are willing to take upon them the name of Jesus Christ, having a determination to serve him to the end, and truly manifest by their works that they have received of the Spirit of Christ unto the remission of their sins, shall be received by baptism into his church.' },
+      ]},
+      { id:'dyc5013', label:'D y C 50:13-14', sublabel:'El que predica y el que recibe', verses:[
+        { num:13, es:'Por lo tanto, a aquel que predica y a aquel que recibe, se les debe entender el uno al otro, y ambos deben edificarse y regocijarse juntos.', en:'Wherefore, I the Lord ask you this question — unto what were ye ordained? To preach my gospel by the Spirit, even the Comforter which was sent forth to teach the truth.' },
+        { num:14, es:'Y aquel que predique y aquel que reciban el Espiritu Santo estaran edificados en el regocijo.', en:'And then received ye spirits which ye could not understand, and received them to be of God; and in this are ye justified?' },
+      ]},
+      { id:'dyc5826', label:'D y C 58:26-27', sublabel:'Hombres diligentes y laboriosos', verses:[
+        { num:26, es:'Porque he aqui, no es justo que yo mande en todas las cosas, pues aquel que esta compelido en todas las cosas es un siervo perezoso e indigno.', en:'For behold, it is not meet that I should command in all things; for he that is compelled in all things, the same is a slothful and not a wise servant.' },
+        { num:27, es:'Por tanto, los hombres deberan ser diligentemente laboriosos en muchas cosas por su propia voluntad, y lograr mucha justicia; pues el poder esta en ellos para hacer todas estas cosas.', en:'Verily I say, men should be anxiously engaged in a good cause, and do many things of their own free will, and bring to pass much righteousness.' },
+      ]},
+      { id:'dyc7622', label:'D y C 76:22-24', sublabel:'Testimonio de Cristo resucitado', verses:[
+        { num:22, es:'Y ahora bien, despues de las muchas y grandes experiencias que tuvimos, este es el testimonio que declaramos al mundo:', en:'And now, after the many testimonies which have been given of him, this is the testimony, last of all, which we give of him.' },
+        { num:23, es:'que el vive! Pues le vimos, si, a mano derecha de Dios; y oimos la voz que declaraba que el es el Unigenito del Padre —', en:'That he lives! For we saw him, even on the right hand of God; and we heard the voice bearing record that he is the Only Begotten of the Father.' },
+        { num:24, es:'que por el, mediante el y de el, los mundos son y fueron creados, y que los moradores de ellos son engendrados hijos e hijas para Dios.', en:'That by him, and through him, and of him, the worlds are and were created, and the inhabitants thereof are begotten sons and daughters unto God.' },
+      ]},
+      { id:'dyc8863', label:'D y C 88:63', sublabel:'Acercaos a mi', verses:[
+        { num:63, es:'Acercaos a mi y yo me acercare a vosotros; buscadme diligentemente y me encontrareis; pedid, y recibireis; llamad, y se os abrira.', en:'Draw near unto me and I will draw near unto you; seek me diligently and ye shall find me; ask, and ye shall receive; knock, and it shall be opened unto you.' },
+      ]},
+      { id:'dyc1217', label:'D y C 121:7-8', sublabel:'Paz en las tribulaciones', verses:[
+        { num:7, es:'Hijo mio, que te digan tus tribulaciones: La paz sea a tu alma. Tu adversidad y tus aflicciones no seran sino por un breve momento.', en:'My son, peace be unto thy soul; thine adversity and thine afflictions shall be but a small moment.' },
+        { num:8, es:'Y luego, si soportas bien las cosas, Dios te exaltara en lo alto; triunfaras sobre todos tus enemigos.', en:'And then, if thou endure it well, God shall exalt thee on high; thou shalt triumph over all thy foes.' },
+      ]},
+      { id:'dyc13022', label:'D y C 130:22-23', sublabel:'La naturaleza de la Deidad', verses:[
+        { num:22, es:'El Padre tiene un cuerpo de carne y huesos tan palpable como el del hombre; el Hijo tambien; pero el Espiritu Santo no tiene un cuerpo de carne y huesos, sino que es un personaje de Espiritu. Ello no fuera asi, el Espiritu Santo no podria morar en nosotros.', en:'The Father has a body of flesh and bones as tangible as man's; the Son also; but the Holy Ghost has not a body of flesh and bones, but is a personage of Spirit. Were it not so, the Holy Ghost could not dwell in us.' },
+        { num:23, es:'Un hombre puede recibir el Espiritu Santo, y este puede descender sobre el, sin que permanezca con el.', en:'A man may receive the Holy Ghost, and it may descend upon him and not tarry with him.' },
+      ]},
+      { id:'dyc1311', label:'D y C 131:1-4', sublabel:'El matrimonio eterno y la exaltacion', verses:[
+        { num:1, es:'En el grado celestial de gloria hay tres cielos, o grados.', en:'In the celestial glory there are three heavens or degrees.' },
+        { num:2, es:'Y para obtener el mas elevado, un hombre debe entrar al orden del sacerdocio (que significa el nuevo y sempiterno convenio del matrimonio).', en:'And in order to obtain the highest, a man must enter into this order of the priesthood (meaning the new and everlasting covenant of marriage).' },
+        { num:3, es:'Y si no lo hace, no puede obtenerlo.', en:'And if he does not, he cannot obtain it.' },
+        { num:4, es:'Puede entrar al otro, pero eso es el fin de su reino; no puede aumentarse mas.', en:'He may enter into the other, but that is the end of his kingdom; he cannot have an increase.' },
       ]},
     ]},
   { id:'pgp', label:'La Perla de Gran Precio', sublabel:'Escrituras Adicionales', icon:'💎', color:C.terra,
     chapters:[
-      { id:'jose', label:'Jose Smith — Historia', sublabel:'La Primera Vision', verses:[
-        { num:16, es:'Asi que, de acuerdo con mi determinacion de pedir a Dios, fui al bosque para hacer el intento. Era por la manana de un hermoso dia claro, a principios de la primavera de mil ochocientos veinte.', en:'So, in accordance with this, my determination to ask of God, I retired to the woods to make the attempt. It was on the morning of a beautiful, clear day, early in the spring of 1820.' },
-        { num:17, es:'Vi una columna de luz exactamente sobre mi cabeza, mas brillante que el sol, la cual descendio gradualmente hasta posarse sobre mi.', en:'I saw a pillar of light exactly over my head, above the brightness of the sun, which descended gradually until it fell upon me.' },
+      { id:'moi139', label:'Moises 1:39', sublabel:'La obra y la gloria de Dios', verses:[
+        { num:39, es:'Porque he aqui, esta es mi obra y mi gloria: llevar a cabo la inmortalidad y la vida eterna del hombre.', en:'For behold, this is my work and my glory — to bring to pass the immortality and eternal life of man.' },
+      ]},
+      { id:'moi718', label:'Moises 7:18', sublabel:'Sion — un mismo corazon y una misma mente', verses:[
+        { num:18, es:'Y el Senor llamo a su pueblo Sion, porque eran de un mismo corazon y una misma mente, y moraban en justicia; y no habia pobres entre ellos.', en:'And the Lord called his people Zion, because they were of one heart and one mind, and dwelt in righteousness; and there was no poor among them.' },
+      ]},
+      { id:'abr322', label:'Abraham 3:22-23', sublabel:'Los espiritus nobles en la vida preterrenal', verses:[
+        { num:22, es:'Y vi que habia muchas almas nobles y grandes al principio; y Dios estaba entre ellas, y les dijo: A estos hare mis gobernantes; porque el que gobernaba desde el principio, estaba entre ellas.', en:'Now the Lord had shown unto me, Abraham, the intelligences that were organized before the world was; and among all these there were many of the noble and great ones.' },
+        { num:23, es:'Y Dios vio que estas almas eran buenas, y se puso en medio de ellas y dijo: A ti te hare gobernante mio; pues el era uno de entre ellas, fue escogido desde el principio.', en:'And God saw these souls that they were good, and he stood in the midst of them, and he said: These I will make my rulers; for he stood among those that were spirits, and he saw that they were good; and he said unto me: Abraham, thou art one of them; thou wast chosen before thou wast born.' },
+      ]},
+      { id:'jose1517', label:'Jose Smith — Historia 1:15-17', sublabel:'La Primera Vision', verses:[
+        { num:15, es:'Apenas me hube llegado al lugar senalado y me arrodille, empece a ofrecer los deseos de mi corazon a Dios, cuando de improviso me vi envuelto por un poder de sorprendente influencia. Densas tinieblas me envolvieron, pero haciendo un esfuerzo supremo para invocar a Dios, en ese mismo momento percibi una columna de luz exactamente sobre mi cabeza, mas brillante que el sol, que fue descendiendo gradualmente hasta posarse sobre mi.', en:'After I had retired to the place where I had previously designed to go, having looked around me, and finding myself alone, I kneeled down and began to offer up the desires of my heart to God. I had scarcely done so, when immediately I was seized upon by some power which entirely overcame me. But, exerting all my powers to call upon God to deliver me, at the very moment when I was ready to sink into despair, I saw a pillar of light exactly over my head, above the brightness of the sun, which descended gradually until it fell upon me.' },
+        { num:17, es:'Al posarse la luz sobre mi, vi a dos Personajes, cuyo fulgor y gloria desafian toda descripcion, uno de los cuales me hablo, llamandome por mi nombre, y dijo, senalando al otro: Este es mi Hijo Amado. Escuchale!', en:'When the light rested upon me I saw two Personages, whose brightness and glory defy all description, standing above me in the air. One of them spake unto me, calling me by name and said, pointing to the other — This is My Beloved Son. Hear Him!' },
+      ]},
+      { id:'jose119', label:'Jose Smith — Historia 1:19', sublabel:'Todos se habian extraviado', verses:[
+        { num:19, es:'Me fue contestado que no debia unirme a ninguna de ellas, pues todas se habian extraviado y se habian apartado del Evangelio; que sus credos eran una abominacion ante su presencia; que aquellos profesores eran todos corruptos; que se acercaban a el con sus labios mas sus corazones distaban mucho de el; que ensenaban doctrinas que eran preceptos de hombres y no del Senor.', en:'I was answered that I must join none of them, for they were all wrong; and the Personage who addressed me said that all their creeds were an abomination in his sight; that those professors were all corrupt; that they draw near to me with their lips, but their hearts are far from me, they teach for doctrines the commandments of men, having a form of godliness, but they deny the power thereof.' },
+      ]},
+      { id:'af14', label:'Articulos de Fe 1:1-4', sublabel:'La Deidad, el pecado, y la salvacion', verses:[
+        { num:1, es:'Creemos en Dios, el Padre Eterno, y en Su Hijo, Jesucristo, y en el Espiritu Santo.', en:'We believe in God, the Eternal Father, and in His Son, Jesus Christ, and in the Holy Ghost.' },
+        { num:2, es:'Creemos que los hombres seran castigados por sus propios pecados, y no por la transgresion de Adan.', en:'We believe that men will be punished for their own sins, and not for Adam's transgression.' },
+        { num:3, es:'Creemos que mediante la Expiacion de Cristo todo el genero humano puede salvarse, mediante el cumplimiento de las leyes y ordenanzas del Evangelio.', en:'We believe that through the Atonement of Christ, all mankind may be saved, by obedience to the laws and ordinances of the Gospel.' },
+        { num:4, es:'Creemos que los primeros principios y ordenanzas del Evangelio son: primero, Fe en el Senor Jesucristo; segundo, Arrepentimiento; tercero, Bautismo por inmersion para la remision de pecados; cuarto, Imposicion de manos para el don del Espiritu Santo.', en:'We believe that the first principles and ordinances of the Gospel are: first, Faith in the Lord Jesus Christ; second, Repentance; third, Baptism by immersion for the remission of sins; fourth, Laying on of hands for the gift of the Holy Ghost.' },
+      ]},
+      { id:'af67', label:'Articulos de Fe 1:6-7', sublabel:'La organizacion de la Iglesia Primitiva', verses:[
+        { num:6, es:'Creemos en la misma organizacion que existio en la Iglesia Primitiva, a saber: apostoles, profetas, pastores, maestros, evangelistas, etc.', en:'We believe in the same organization that existed in the Primitive Church, namely, apostles, prophets, pastors, teachers, evangelists, and so forth.' },
+        { num:7, es:'Creemos en el don de lenguas, profecia, revelacion, visiones, sanidades, interpretacion de lenguas, etc.', en:'We believe in the gift of tongues, prophecy, revelation, visions, healing, interpretation of tongues, and so forth.' },
+      ]},
+      { id:'af13', label:'Articulo de Fe 1:13', sublabel:'Virtud, honestidad y esperanza', verses:[
+        { num:13, es:'Creemos en ser honrados, veraces, castos, benevolos, virtuosos y en hacer el bien a todos los hombres; en realidad podemos decir que seguimos la admonicion de Pablo: Creemos todas las cosas, esperamos todas las cosas, hemos soportado muchas cosas y esperamos poder soportar todas las cosas. Si hay algo virtuoso, bello, de buena reputacion o digno de alabanza, a estas cosas aspiramos.', en:'We believe in being honest, true, chaste, benevolent, virtuous, and in doing good to all men; indeed, we may say that we follow the admonition of Paul — We believe all things, we hope all things, we have endured many things, and hope to be able to endure all things. If there is anything virtuous, lovely, or of good report or praiseworthy, we seek after these things.' },
       ]},
     ]},
 ]
+
 
 const SPEAK_LEVELS = [
   { id:'sounds', label:'Sonidos', sublabel:'Nivel 1: Sonidos del Espanol', icon:'🔊', color:C.blue, exercises:[
